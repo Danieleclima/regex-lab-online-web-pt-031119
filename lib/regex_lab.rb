@@ -24,7 +24,7 @@ end
 end
 
 def valid_phone_number?(phone)
-if text.match(/^[^A-Z]*[^a-z]$/)
+if phone.match(/^[^A-Z]*[^a-z]$/)
   true
 else
   false
